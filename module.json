@@ -1,0 +1,43 @@
+{
+    "author":"Maroš Kollár",
+    "category":"automation_basic",
+    "defaults":{
+        "description":"__m_descr__",
+        "title":"__m_title__"
+    },
+    "dependencies":["BaseModule"],
+    "homepage":"https://github.com/maros/Zway-EventButton/",
+    "icon":"icon.png",
+    "maturity":"stable",
+    "moduleName":"EventButton",
+    "options":{
+        "fields" : {
+            "events" : {
+                "helper" : "__events_helper__",
+                "label" : "__events_label__",
+                "order" : 1
+            }
+        }
+    },
+    "repository":{
+        "source":"https://github.com/maros/Zway-EventButton",
+        "type":"git"
+    },
+    "schema":{
+        "properties":{
+            "events" : {
+                "items" : {
+                   "required" : true,
+                   "type" : "string"
+                },
+                "minItems" : 1,
+                "type" : "array",
+                "uniqueItems" : true
+            }
+        },
+        "required":true,
+        "type":"object"
+    },
+    "singleton":false,
+    "version":"1.00"
+}

@@ -1,0 +1,6 @@
+{
+   "events_helper" : "Namen der Ereignisse die erstellt werden sollen",
+   "events_label" : "Ereignisse",
+   "m_descr" : "Führt ein oder mehrere Events nach auf Knopfdurck aus. These Events können mit dem Ereignisüberwachungs Modul bearbeitet werden.",
+   "m_title" : "Ereignis Schalter"
+}

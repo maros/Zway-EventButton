@@ -1,0 +1,6 @@
+{
+   "events_helper" : "Names of the events to be emitted. This name should be used in the EventWatcher configuration",
+   "events_label" : "Events",
+   "m_descr" : "Emits one or more events on the push of a button. These events can then be processed and acted upon by the EventWatcher module",
+   "m_title" : "Event Button"
+}
