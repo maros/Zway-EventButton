@@ -27,23 +27,17 @@ available in 2.2.0 and higher. For stable module releases no access token is
 required. If you want to test the latest pre-releases use 'k1_beta' as
 app store access token.
 
-Allow module to call the remote host command and make helper executable
-```shell
-echo '/opt/z-way-server/automation/userModules/RemoteHost/remotehost' >> /opt/z-way-server/automation/.syscommands
-chmod a+x /opt/z-way-server/automation/userModules/RemoteHost/remotehost
-```
-
 For developers and users of older Zway versions installation via git is
 recommended.
 
 ```shell
 cd /opt/z-way-server/automation/userModules
-git clone https://github.com/maros/Zway-RemoteHost.git RemoteHost --branch latest
+git clone https://github.com/maros/Zway-EventButton.git EventButton --branch latest
 ```
 
 To update or install a specific version
 ```shell
-cd /opt/z-way-server/automation/userModules/RemoteHost
+cd /opt/z-way-server/automation/userModules/EventButton
 git fetch --tags
 # For latest released version
 git checkout tags/latest
